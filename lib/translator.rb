@@ -18,6 +18,8 @@ def get_japanese_emoticon(path, emoticon)
   # code goes here
   load_library(path).each do |key, value|
     binding.pry
+    if value[:japanese] == emoticon
+      return 
 end
 end
 
