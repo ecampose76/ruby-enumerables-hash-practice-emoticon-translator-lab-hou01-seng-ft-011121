@@ -20,6 +20,7 @@ end
 
 def get_english_meaning(path, value)
   # code goes here
-  YAML.load_file(path).each do
+  YAML.load_file(path).each do |key, value|
+  end
   #binding.pry
 end
