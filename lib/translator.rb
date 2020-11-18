@@ -5,7 +5,7 @@ require "yaml"
 def load_library(path)
   # code goes here
 
-YAML.load_file(path).to_h
+YAML.load_file(path)
 
 end
 
