@@ -8,7 +8,7 @@ final_hash = {}
 YAML.load_file(path).each do |key, value|
   if !final_hash[key] = {}
 end
-
+end
 #binding.pry
 final_hash
 end
