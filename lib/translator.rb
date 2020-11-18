@@ -21,4 +21,5 @@ end
 def get_english_meaning(path, emoticon)
   # code goes here
   #binding.pry
+  load_library()
 end
