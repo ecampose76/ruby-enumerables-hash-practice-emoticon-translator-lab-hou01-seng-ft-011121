@@ -10,7 +10,7 @@ YAML.load_file(path).each do |key, value|
      final_hash[key][:english] = ""
      final_hash[key][:japanese] = ""
     end
-    #binding.pry
+    binding.pry
 end
 #binding.pry
 final_hash
