@@ -14,7 +14,7 @@ end
 final_hash
 end
 
-def get_japanese_emoticon
+def get_japanese_emoticon(path, value[0])
   # code goes here
 end
 
