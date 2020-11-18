@@ -4,9 +4,9 @@ require "yaml"
 
 def load_library(path)
   # code goes here
-  final_hash = {}
-YAML.load_file(path)
-final_hash
+
+YAML.load_file(path).to_h
+
 end
 
 def get_japanese_emoticon
